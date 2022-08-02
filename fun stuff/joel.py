@@ -3,24 +3,29 @@ print("hello World")
 j = "jel"
 
 print(j)
+from typing import List
 
 
-# Introduction
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        d = {}
 
-# Population:- It is the totality of persons ,objects, items or anything
-# conceivable pertaining certain characteristic
-# Sampling:- Selection of a subset of individuals from within a statistical
-# population to estimate characteristics of the whole population
-# Sample:- Finite part of a population or a subset of sampling units selected
-# by some process, usually by deliberate selection with the object of
-# investigating the properties of the parent population or set
-# Sampling Unit:- Each individual and indivisible units in population
+        for i in nums:
+            if i not in d:
+                d[i] = 1
+            else:
+                d[i] = d[i] + 1
+        l = []
+        while k>0:
+            maxi = 0
+            p = 0
+            for i in d:
+                if d[i] > maxi:
+                    maxi = i
+                    p = i
+            l.append(maxi)
+            del d[p]
+            k = k-1
+        return l
 
-# Objectives
-# 1. Select randomly 100 samples of size 35 from weight and find their sample
-# means and display the same in a table and infer the same.
-# 2. Select randomly 25 samples of size 7 from the fish type Perch with length2
-# and find the sample mean sampling distribution for the same.
-
-# 3. Construct the histogram for the sample mean which was generated in step 2
-# and infer the same.
+print(Solution.topKFrequent(1,[1,1,1,2,2,3],2))
