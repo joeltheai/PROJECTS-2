@@ -1,4 +1,4 @@
-# 20-Jul-2022 
+# *20-Jul-2022* 
 ## 10:21:21 AM 
 
 last class summary:
@@ -9,8 +9,11 @@ grammar isnt learned but acquired from our environtment. it is more intuitive th
 
 we learned how peoples intelligence are often 
 
+<br>
 
-- richiks sunday
+### **richiks sunday**
+
+
 i just sit on my laptop and play video games. i also do my laundry . i talk to my parents on my phone. 
 time passes by very quicly on a sunday.
 
@@ -40,10 +43,10 @@ good-looking is an adjective and not a verb
 <br>
 <br>
 
-# 27-Jul-2022 
+# *27-Jul-2022* 
 ## 9:59:39 AM 
 
-### regular vs irregular verb
+### **regular vs irregular verb**
 
 regular - v + ed
 
@@ -55,32 +58,37 @@ present perfect
 
 subject + have/has + past participle form of the verb
 
-### summary
+### **summary**
 
 played never have i ever to understand present perfect form of sentences
 
-### leanrt
+### **leanrt**
 
 present perfect
 
 subject + have/has + past participle form of the verb
 
-### mistakes
+### **mistakes**
 
 nil
 
-## 2:22:55 PM 
+<br>
+<br>
+
+## **2:22:55 PM** 
 
 present perfect continious form 
+
 subject + have/has + beeen + verb + ing
 
 
 
 
-### adi dictate
-i think ive lived a very interesting life. im 73 now. i dont work anymore. i was in the army for 51 years. i retired when i was 69. i live in a small town in mushidabhad. i have lived here for the past 20 years. to be precise i have lived here since 1995. i have been to so many countries that  i cant remember all of them. ive been to bhutan six or seven times and to chine three times. i have also been to austrailia once but i didnt like it at all: much too cold for me. i have never been to europw but i would like to. i havent travelled since ive visited my children last month. 
+### **adi dictate**
 
-period. they say that love is the greatest thing and i agree. ive been married four times but never for more than five years. i dont think people really understand me. i have been married four times but i havent found my soulmate yet.
+    i think ive lived a very interesting life. im 73 now. i dont work anymore. i was in the army for 51 years. i retired when i was 69. i live in a small town in mushidabhad. i have lived here for the past 20 years. to be precise i have lived here since 1995. i have been to so many countries that  i cant remember all of them. ive been to bhutan six or seven times and to chine three times. i have also been to austrailia once but i didnt like it at all: much too cold for me. i have never been to europw but i would like to. i havent travelled since ive visited my children last month. 
+
+    period. they say that love is the greatest thing and i agree. ive been married four times but never for more than five years. i dont think people really understand me. i have been married four times but i havent found my soulmate yet.
 
 ### summary
 
@@ -100,19 +108,47 @@ how many phones do you own?
 <br>
 <br>
 
-# 03-Aug-2022 **
+# *03-Aug-2022* 
 ## 10:28:49 AM 
+<br>
 
 ### *what will you do if you were the christ vc?*
-- i will make sure there are no site restrictions on the uni wifi
-- i will force the shopkeepers to sell food for cheap
-- i will make sure students get atleats 2 hours of leasure in a day
-- i will not enforce any kind of attendence requirements
-- blah blah
+    - i will make sure there are no site restrictions on the uni wifi
+    - i will force the shopkeepers to sell food for cheap
+    - i will make sure students get atleats 2 hours of leasure in a day
+    - i will not enforce any kind of attendence requirements
+    - blah blah
+
+
+<br>
+<br>
+
+## 14:17 
+### *what you will be doing on new years 2050*?
+    - me and somesh will take our flying car to universal studios amusement park and relive the scenes from the classic ancient movie of harry porter
+    - we will click on our smart watched and all of a sudden a mug of bear appears on our hands
+    - we immediately realize that we forgot to invite our friend yash to the park and with a click of a button in our watches we teleport to his  room, where he lies  sleeping lin his floating bed.
+<br>
+<br>
+
+### <u>**Structure of future continuous** </u> :
+<br>
+
+        S + will (be) + v + ing
 
 
 
 
+<br>
+<br>
+
+### ***Write a story based on the prompt***
+<br>
 
 
+    A teacher came back into the class and realized she shouldnt have left the students on their own for that long. She walked back in and saw...
 
+<br>
+<p style="text-align:center"> *OR* </p>
+
+    A man arrived home having left his new puppy on its own for the first time. When he arrived home he saw... 
