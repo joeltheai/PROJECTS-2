@@ -152,3 +152,66 @@ how many phones do you own?
 <p style="text-align:center"> *OR* </p>
 
     A man arrived home having left his new puppy on its own for the first time. When he arrived home he saw... 
+
+
+
+# *10 - Aug - 22*
+
+## 10 : 22 AM
+
+- he had died at the age 74 <br>
+
+        S + had + pp
+
+- he had beeen suffering from respiratory disease<br>
+
+        s + had + been  + v + ing
+
+- he had been courageuos
+
+<br>
+
+### **acheivements**
+
+- i placed first in digitaln art competition in uni.
+
+
+### summary
+- maam read us an article about mohamed ali
+- she also read us a quote from him
+- we were then asked to write our achievement for our CV
+- we  studied past perfect and past perfect continuous
+  
+
+<br>
+
+## 14 : 11
+
+<br>
+
+### *what will you be doing in 2122?*
+
+- there wont be any more graphic designers, all art will be ai generated and all design jobs that existed 100 years ago will no longer exist
+- actors will no longer exist, all movies will be cgi 
+- there will be 3d printed food, and all households will have  a food printer
+- control other peoples volume in real time
+
+
+<br>
+
+<p style="text-align:center">👧🏽 ANNA BANANNAAA 🍌</p>
+
+
+future perfect:  
+we will have created intelligent humans
+            
+        s + will + have + pp verb
+
+
+future perfect continious:  
+we will have been farming
+
+        s + will + have been + verb + ing
+
+### 
+
