@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>notes.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p style="text-align:center">👧🏽 ENGLISH NOTESSSS!!! 🍌</p>
+<h1 id="20-jul-2022"><em><strong>20-Jul-2022</strong></em></h1>
+<h2 id="102121-am">10:21:21 AM</h2>
+<p>last class summary:</p>
+<p>we learned about grammar and how different people go about learning grammer</p>
+<p>grammar isnt learned but acquired from our environtment. it is more intuitive than technical.</p>
+<p>we learned how peoples intelligence are often</p>
+<br>
+<h3 id="richiks-sunday"><strong>richiks sunday</strong></h3>
+<p>i just sit on my laptop and play video games. i also do my laundry . i talk to my parents on my phone.
+time passes by very quicly on a sunday.</p>
+<br>
+<br>
+<br>
+<h2 id="20519-pm">2:05:19 PM</h2>
+<p>the last class we learned about present tenses.</p>
+<p>sentences that convey a universal fact are often in simple present tense.</p>
+<p>sentences that describe a routine action are also expressed in present tense.
+we demonstratedd this by writing about</p>
+<h2 id="25642-pm">2:56:42 PM</h2>
+<p>the teacher divided the class into 11 different groups of 5-6.
+the teacher shared an embarrasing story of hers and asked us to do the same within our group.</p>
+<p>good-looking is an adjective and not a verb</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="27-jul-2022"><em><strong>27-Jul-2022</strong></em></h1>
+<h2 id="95939-am">9:59:39 AM</h2>
+<h3 id="regular-vs-irregular-verb"><strong>regular vs irregular verb</strong></h3>
+<p>regular - v + ed</p>
+<p>work -  worked</p>
+<p>play - played</p>
+<p>present perfect</p>
+<p>subject + have/has + past participle form of the verb</p>
+<h3 id="summary"><strong>summary</strong></h3>
+<p>played never have i ever to understand present perfect form of sentences</p>
+<h3 id="leanrt"><strong>leanrt</strong></h3>
+<p>present perfect</p>
+<p>subject + have/has + past participle form of the verb</p>
+<h3 id="mistakes"><strong>mistakes</strong></h3>
+<p>nil</p>
+<br>
+<br>
+<h2 id="22255-pm"><strong>2:22:55 PM</strong></h2>
+<p>present perfect continious form</p>
+<p>subject + have/has + beeen + verb + ing</p>
+<br>
+<br>
+<h3 id="adi-dictated-stuff"><strong>adi dictated stuff :</strong></h3>
+<pre><code>i think ive lived a very interesting life. im 73 now. i dont work anymore. i was in the army for 51 years. i retired when i was 69. i live in a small town in mushidabhad. i have lived here for the past 20 years. to be precise i have lived here since 1995. i have been to so many countries that  i cant remember all of them. ive been to bhutan six or seven times and to chine three times. i have also been to austrailia once but i didnt like it at all: much too cold for me. i have never been to europw but i would like to. i havent travelled since ive visited my children last month. 
+
+period. they say that love is the greatest thing and i agree. ive been married four times but never for more than five years. i dont think people really understand me. i have been married four times but i havent found my soulmate yet.
+</code></pre>
+<h3 id="summary">summary</h3>
+<p>prsent perfect continuous, walked around class asking how long / how many questions.</p>
+<p>how long have you been codong for?</p>
+<p>2 years</p>
+<p>how many phones do you own?</p>
+<p>1</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="03-aug-2022"><em><strong>03-Aug-2022</strong></em></h1>
+<h2 id="102849-am">10:28:49 AM</h2>
+<br>
+<h3 id="what-will-you-do-if-you-were-the-christ-vc"><em>what will you do if you were the christ vc?</em></h3>
+<pre><code>- i will make sure there are no site restrictions on the uni wifi
+- i will force the shopkeepers to sell food for cheap
+- i will make sure students get atleats 2 hours of leasure in a day
+- i will not enforce any kind of attendence requirements
+- blah blah
+</code></pre>
+<br>
+<br>
+<h2 id="1417">14:17</h2>
+<h3 id="what-you-will-be-doing-on-new-years-2050"><em>what you will be doing on new years 2050</em>?</h3>
+<pre><code>- me and somesh will take our flying car to universal studios amusement park and relive the scenes from the classic ancient movie of harry porter
+- we will click on our smart watched and all of a sudden a mug of bear appears on our hands
+- we immediately realize that we forgot to invite our friend yash to the park and with a click of a button in our watches we teleport to his  room, where he lies  sleeping lin his floating bed.
+</code></pre>
+<br>
+<br>
+<h3 id="ustructure-of-future-continuous-u"><u><strong>Structure of future continuous</strong> </u> :</h3>
+<br>
+<pre><code>    S + will (be) + v + ing
+</code></pre>
+<br>
+<br>
+<h3 id="write-a-story-based-on-the-prompt"><em><strong>Write a story based on the prompt</strong></em></h3>
+<br>
+<pre><code>A teacher came back into the class and realized she shouldnt have left the students on their own for that long. She walked back in and saw...
+</code></pre>
+<br>
+<p style="text-align:center"> *OR* </p>
+<pre><code>A man arrived home having left his new puppy on its own for the first time. When he arrived home he saw... 
+</code></pre>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="10---aug---22"><em><strong>10 - Aug - 22</strong></em></h1>
+<h2 id="10--22-am">10 : 22 AM</h2>
+<ul>
+<li>
+<p>he had died at the age 74 <br></p>
+<pre><code>  S + had + pp
+</code></pre>
+</li>
+<li>
+<p>he had beeen suffering from respiratory disease<br></p>
+<pre><code>  s + had + been  + v + ing
+</code></pre>
+</li>
+<li>
+<p>he had been courageuos</p>
+</li>
+</ul>
+<br>
+<h3 id="acheivements"><strong>acheivements</strong></h3>
+<ul>
+<li>i placed first in digitaln art competition in uni.</li>
+</ul>
+<h3 id="summary">summary</h3>
+<ul>
+<li>maam read us an article about mohamed ali</li>
+<li>she also read us a quote from him</li>
+<li>we were then asked to write our achievement for our CV</li>
+<li>we  studied past perfect and past perfect continuous</li>
+</ul>
+<br>
+<h2 id="14--11">14 : 11</h2>
+<br>
+<h3 id="what-will-you-be-doing-in-2122"><em>what will you be doing in 2122?</em></h3>
+<ul>
+<li>there wont be any more graphic designers, all art will be ai generated and all design jobs that existed 100 years ago will no longer exist</li>
+<li>actors will no longer exist, all movies will be cgi</li>
+<li>there will be 3d printed food, and all households will have  a food printer</li>
+<li>control other peoples volume in real time</li>
+</ul>
+<br>
+<p>future perfect:<br>
+we will have created intelligent humans</p>
+<pre><code>    s + will + have + pp verb
+</code></pre>
+<p>future perfect continious:<br>
+we will have been farming</p>
+<pre><code>    s + will + have been + verb + ing
+</code></pre>
+<h3 id=""></h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="17-aug-22"><em><strong>17-Aug-22</strong></em></h1>
+<h2 id="mornin-summary">mornin summary</h2>
+<p>In the previous class we discussed subject verb agreement.
+nouns usually take plural form after adding an s while verbs take a singulat form after adding an s or es in most cases.
+the form of the verb depends on the number or persons</p>
+<h2 id="afternoon-session">afternoon session</h2>
+<p>active vs passive voice</p>
+<p>active</p>
+<pre><code> s + v + o
+</code></pre>
+<p>passive</p>
+<pre><code>o + &quot;&quot; + v + by + s
+</code></pre>
+<p>A minor boy who was a Dalit was allegedly beaten to death by a teacher in Surana village of Rajasthan.</p>
+
+</body>
+</html>

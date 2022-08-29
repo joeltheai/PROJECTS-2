@@ -1,4 +1,8 @@
-# *20-Jul-2022* 
+
+
+<p style="text-align:center">👧🏽 ENGLISH NOTESSSS!!! 🍌</p>
+
+# ***20-Jul-2022*** 
 ## 10:21:21 AM 
 
 last class summary:
@@ -32,7 +36,7 @@ sentences that convey a universal fact are often in simple present tense.
 sentences that describe a routine action are also expressed in present tense.
 we demonstratedd this by writing about 
 
-##2:56:42 PM 
+## 2:56:42 PM 
 
 the teacher divided the class into 11 different groups of 5-6.
 the teacher shared an embarrasing story of hers and asked us to do the same within our group.
@@ -42,8 +46,11 @@ good-looking is an adjective and not a verb
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
-# *27-Jul-2022* 
+# ***27-Jul-2022*** 
 ## 9:59:39 AM 
 
 ### **regular vs irregular verb**
@@ -81,10 +88,10 @@ present perfect continious form
 
 subject + have/has + beeen + verb + ing
 
+<br>
+<br>
 
-
-
-### **adi dictate**
+### **adi dictated stuff :**
 
     i think ive lived a very interesting life. im 73 now. i dont work anymore. i was in the army for 51 years. i retired when i was 69. i live in a small town in mushidabhad. i have lived here for the past 20 years. to be precise i have lived here since 1995. i have been to so many countries that  i cant remember all of them. ive been to bhutan six or seven times and to chine three times. i have also been to austrailia once but i didnt like it at all: much too cold for me. i have never been to europw but i would like to. i havent travelled since ive visited my children last month. 
 
@@ -103,12 +110,14 @@ how many phones do you own?
 
 1
 
-
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
 
-# *03-Aug-2022* 
+# ***03-Aug-2022*** 
 ## 10:28:49 AM 
 <br>
 
@@ -153,9 +162,14 @@ how many phones do you own?
 
     A man arrived home having left his new puppy on its own for the first time. When he arrived home he saw... 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-# *10 - Aug - 22*
+# ***10 - Aug - 22***
 
 ## 10 : 22 AM
 
@@ -199,8 +213,6 @@ how many phones do you own?
 
 <br>
 
-<p style="text-align:center">👧🏽 ANNA BANANNAAA 🍌</p>
-
 
 future perfect:  
 we will have created intelligent humans
@@ -215,3 +227,29 @@ we will have been farming
 
 ### 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# ***17-Aug-22***
+## mornin summary
+
+In the previous class we discussed subject verb agreement.
+nouns usually take plural form after adding an s while verbs take a singulat form after adding an s or es in most cases.
+the form of the verb depends on the number or persons
+
+## afternoon session
+active vs passive voice
+
+active
+
+     s + v + o
+
+passive
+
+    o + "" + v + by + s
+
+A minor boy who was a Dalit was allegedly beaten to death by a teacher in Surana village of Rajasthan.
