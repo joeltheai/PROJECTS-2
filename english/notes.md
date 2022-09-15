@@ -253,3 +253,5 @@ passive
     o + "" + v + by + s
 
 A minor boy who was a Dalit was allegedly beaten to death by a teacher in Surana village of Rajasthan.
+
+
