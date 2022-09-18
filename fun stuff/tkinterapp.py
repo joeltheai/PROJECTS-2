@@ -31,6 +31,7 @@ def submit():
     print("The account pin set to : ", pin)
     
     a.set("")
+    
     b.set("")
     c.set("")
     d.set("")
