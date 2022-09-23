@@ -37,8 +37,8 @@ def submit():
     d.set("")
     e.set("")
 
-p = tk.Label(root,text = "",bg = "#b5245f",fg = "white",font="Calibri").grid(row= 0,column=0)
-a2 = tk.Label(root ,text = "First Name",bg = "#b5245f",fg = "white").grid(row = 1,column = 1)
+p = tk.Label(root,text = "",bg = "#b5245f",fg = "white",font="Ariel").grid(row= 0,column=0)
+a2 = tk.Label(root ,text = "First Name",bg = "#b5245f",fg = "white",font="Ariel").grid(row = 1,column = 1)
 b2 = tk.Label(root ,text = "Last Name",bg = "#b5245f",fg = "white").grid(row = 2,column = 1)
 c2 = tk.Label(root ,text = "Email Id",bg = "#b5245f",fg = "white").grid(row = 3,column = 1)
 d2 = tk.Label(root ,text = "Aadhar Number",bg = "#b5245f",fg = "white").grid(row = 4,column = 1)

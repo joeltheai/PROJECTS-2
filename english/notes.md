@@ -255,3 +255,26 @@ passive
 A minor boy who was a Dalit was allegedly beaten to death by a teacher in Surana village of Rajasthan.
 
 
+<br>
+
+# **21 - sept 2022**
+
+## mornin
+
+### speaking vs writing
+- speaking skills can be improved mainly trhough listening while writing skills by reading
+- you learn to speak before you write 
+- speaking is more intuitive whilewriting is technical
+
+
+### text types
+- emails
+- haiku
+- novels
+- novella
+- short stories
+- poems
+- recipies
+- receipt
+- 
+- 
