@@ -277,4 +277,27 @@ A minor boy who was a Dalit was allegedly beaten to death by a teacher in Surana
 - recipies
 - receipt
 - 
+-
+
+
+
+##
+
+intr
+- set a conntext
+- state how you are structuring your essay, firs this discusss then this bla bla
+
+body
+- body, can have subheading
+
+conclusion
+- summary 
 - 
+
+
+what are linkers?
+- despite, because, therefore....
+
+
+reasearch
+ 
