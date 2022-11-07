@@ -300,4 +300,11 @@ what are linkers?
 
 
 reasearch
- 
+
+# 2/11/2022
+
+## background for a project proposal
+In the modern age of sensational headlines and titles studies are often misunderstood and their conclusions are often mischaracterised even by proffessionals in the fieldd. This often due to proper lack of understanding of statistical concepts. This project aims to provide a course for undergraduate students in the medical field which would familiarise them with statistical concepts which would be necessary for the proper understanding of studies which employ a lot of statistical analysis. This course would equip students with the necesssary vocabulary and knowledge that are essential for better conclusion making.
+
+
+

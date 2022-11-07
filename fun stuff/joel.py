@@ -19,6 +19,7 @@ class Solution:
         # print(l)
 
         for i in range(len(nums)-1, 0, -1):
+            
             pos *= nums[i]
             l[i-1] = l[i-1] * pos
         return l
