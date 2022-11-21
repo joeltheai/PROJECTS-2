@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T18:22:41.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.3.6" etag="sMswEOYsV8q0lZtwHY-h" type="github"><diagram id="4rFXLpJNOyjmYSkjDDAq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T18:35:02.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="J5DBMQA6UrRLqjiut6lQ" version="20.3.6" type="github">
+  <diagram id="4rFXLpJNOyjmYSkjDDAq" name="Page-1">
+    <mxGraphModel dx="625" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-1" value="-" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="345" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hotel Room Service Management System&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xpoSg5N0p_pjYbcwsytG-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-5" value="Manager/Supervisor" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="50" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xpoSg5N0p_pjYbcwsytG-1" target="xpoSg5N0p_pjYbcwsytG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="200" as="sourcePoint" />
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-9" value="Customer" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-10" value="" style="endArrow=none;startArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=default;startFill=1;endFill=0;" edge="1" parent="1" target="xpoSg5N0p_pjYbcwsytG-9" source="xpoSg5N0p_pjYbcwsytG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint" />
+            <mxPoint x="57.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-11" value="Chef / Kitchen&amp;nbsp;&lt;br&gt;manager" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="400" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-12" value="" style="endArrow=classic;startArrow=none;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;startFill=0;" edge="1" parent="1" target="xpoSg5N0p_pjYbcwsytG-11" source="xpoSg5N0p_pjYbcwsytG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="310" as="sourcePoint" />
+            <mxPoint x="377.5" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-13" value="Waiter / Server" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xpoSg5N0p_pjYbcwsytG-14" value="" style="endArrow=classic;startArrow=none;html=1;rounded=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;startFill=0;" edge="1" parent="1" target="xpoSg5N0p_pjYbcwsytG-13" source="xpoSg5N0p_pjYbcwsytG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="260" as="sourcePoint" />
+            <mxPoint x="175" y="432.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
