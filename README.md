@@ -13,7 +13,7 @@ its not much but its honest work
 well i just made it to learn how git works
 
 
-'''python 
+```python 
 import numpy as np
 print("hello") 
-'''
+```
